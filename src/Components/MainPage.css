@@ -7,10 +7,9 @@ nav{
 #content {
     padding:50px 0px;
 }
-.list_item{
-    /* padding: 20px; */
+/* .list_item{
     background: white;
-}
+} */
 .list_item-title{
     font-weight: 600;
 }

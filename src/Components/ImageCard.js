@@ -8,7 +8,7 @@ class ImageCard extends React.Component{
         this.state = { spans: 0 };
     }
     render(){            
-        const { space_description, space_thumb_image } = this.props.image;
+        const { space_description, space_thumb_image, type_name, base_price } = this.props.image;
         return (
                 <div className="col-12 col-sm-6 col-md-4 col-xl-2 mb-2">                    
                     <div className="list_item-image" style={{height: "300px"}}>
@@ -20,10 +20,10 @@ class ImageCard extends React.Component{
                                 <span>space_thumb_image </span>
                             </div>
                             <div className="list_item-txt">
-                                <span>Standee</span>
+                                <span>{type_name}</span>
                             </div>
                             <div className="list_item-price">
-                                <span style={{fontWeight: "bold"}}>$10</span> / <span>day</span>
+                                <span style={{fontWeight: "bold"}}>${base_price}</span> / <span>day</span>
                         </div>
                     </div>
                 </div>
