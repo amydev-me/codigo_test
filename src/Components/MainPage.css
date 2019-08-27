@@ -1,0 +1,25 @@
+body{
+    background-color: #eee;
+}
+nav{
+    background-color: #1767C0;
+}
+#content {
+    padding:50px 0px;
+}
+.list_item{
+    /* padding: 20px; */
+    background: white;
+}
+.list_item-title{
+    font-weight: 600;
+}
+.list_item-txt {
+    color: #333;
+}
+.list_item-price {
+    margin-top: 20px;
+}
+.col {
+    padding: 5px !important;
+}
