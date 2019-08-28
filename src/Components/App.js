@@ -2,6 +2,7 @@ import React from 'react';
 import LoginForm from './LoginPage';
 import MainPage from './MainPage';
 import PrivateRoute from '../Helpers/PrivateRoute';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import {
     BrowserRouter as Router,

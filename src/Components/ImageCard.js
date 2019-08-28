@@ -6,7 +6,7 @@ const ImageCard = (props) =>{
             <div className="col-12 col-sm-6 col-md-4 col-xl-2 mb-2">                    
                 <div className="list_item-image" style={{height: "300px"}}>
                     <img src={ space_thumb_image }
-                        alt={ space_description }  />
+                        alt={ space_description }  width="100%" height="100%"/>
                     </div>
                     <div className="list_item">
                         <div className="list_item-title">

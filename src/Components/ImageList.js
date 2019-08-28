@@ -8,7 +8,7 @@ const ImageList = props => {
         return  <ImageCard key={ image.disp_order } image={ image }/>;
     });
     
-    return <div>{images}</div>
+    return   <div className="row">{images}</div>;
 }
 
 export default ImageList;

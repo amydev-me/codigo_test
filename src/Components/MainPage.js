@@ -2,6 +2,7 @@ import React from 'react';
 import ImageList from './ImageList';
 import NavBar from './NavBar';
 import './MainPage.css';
+
 import axios from 'axios';
 
 class MainPage extends React.Component {
@@ -25,14 +26,15 @@ class MainPage extends React.Component {
       return(
         <div>
            <NavBar onLogoutClick={this.onLogoutClick} />
-           
+           <section id="content"> 
+
           <div className="container" style={{maxWidth: "1300px"}}>
                 <p className="m-b-5"><span style={{color: "red"}}>{this.state.images.length}</span> Listing Found</p>
-                <div className="row">
+              
                       <ImageList images={this.state.images}/>
-                </div>
             </div>
-          </div>
+            </section>
+        </div>
          
 
       );
