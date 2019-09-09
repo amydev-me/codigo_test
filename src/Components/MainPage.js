@@ -24,7 +24,7 @@ class MainPage extends React.Component {
 
     render(){
       return(
-        <div>
+        <div style={{backgroundColor:"#eee"}}>
            <NavBar onLogoutClick={this.onLogoutClick} />
            <section id="content"> 
 
